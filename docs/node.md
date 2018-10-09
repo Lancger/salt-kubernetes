@@ -245,6 +245,7 @@ LimitNOFILE=65536
 
 [Install]
 WantedBy=multi-user.target
+
 8.启动Kubernetes Proxy
 [root@linux-node2 ~]# systemctl daemon-reload
 [root@linux-node2 ~]# systemctl enable kube-proxy
